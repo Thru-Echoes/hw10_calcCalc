@@ -4,8 +4,7 @@ python:
     - "3.4"
     - "3.3"
 cache: pip
-install:
-    - pip install -r requirements.txt
+before_install:
+    - chmod +x ./.travis/test.sh
 script:
-    - python setup.py bdist_wheel
-    - python setup.py install
+    - "./.travis/test.sh"
