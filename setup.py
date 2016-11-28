@@ -1,1 +1,6 @@
-# Setup file 
+from setuptools import setup, find_packages
+setup(
+    name="CalCalc",
+    version="0.1",
+    packages=find_packages(),
+)
