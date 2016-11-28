@@ -1,7 +1,7 @@
-NS = CalCalc
+NS = Thru-Echoes
 VERSION = latest
 NAME = mydocker
-REPO = pydocker
+REPO = hw10_calcCalc
 PORTS = -p 5000:5000
 INSTANCE = default
 VOLUMES = -v /tmp/docker:/var/log
