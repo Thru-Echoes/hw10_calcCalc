@@ -7,3 +7,5 @@ CalCalc.egg-info/top_level.txt
 calcalc/CalCalc.py
 calcalc/__init__.py
 calcalc/argparse_action.py
+calcalc/tests/__init__.py
+calcalc/tests/test_it.py
