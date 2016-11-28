@@ -18,13 +18,14 @@ A Command Line tool written in Python that interfaces with Wolfram Alpha. This i
 ### Run tests
 
 ```
-    $ python setup.py test
+    $ python3 setup.py test
 ```
 
 ### Install
 
 ```
-    $ python setup.py install
+    $ python3 
+    $ python3 setup.py install
 ```
 
 ## Integrate with Flask x Docker
@@ -32,7 +33,7 @@ A Command Line tool written in Python that interfaces with Wolfram Alpha. This i
 Integration with Flask:
 
 ```
-    $ python app.py
+    $ python3 app.py
     ...listening on 0.0.0.0:5000
 ```
 
