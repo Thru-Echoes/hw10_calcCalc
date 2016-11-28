@@ -2,3 +2,4 @@ pytest
 wolframalpha
 argparse
 unittest2
+flask

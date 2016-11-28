@@ -29,4 +29,16 @@ A Command Line tool written in Python that interfaces with Wolfram Alpha. This i
 
 ## Integrate with Flask x Docker
 
-Coming soon...
+Integration with Flask:
+
+```
+    $ python app.py
+    ...listening on 0.0.0.0:5000
+```
+
+Go to the URL **0.0.0.0:5000** in your browser and you will see the result of:
+
+```
+    >>> from calcalc.CalCalc import calculate
+    >>> calculate('2+2', return_int = True)
+```

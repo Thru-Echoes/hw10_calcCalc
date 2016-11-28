@@ -35,6 +35,6 @@ setup(
         license="BSD",
         packages=['calcalc', 'calcalc.tests'],
         platforms=['any'],
-        install_requires=['pytest','wolframalpha','argparse'],
+        install_requires=['pytest','wolframalpha','argparse', 'flask'],
         tests_require=['pytest']
 )
