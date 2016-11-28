@@ -1,14 +1,10 @@
 language: python
-python:
-    - "3.5"
-    - "3.4"
-    - "3.3"
 sudo: required
 matrix:
   include:
   - os: linux
     dist: trusty
-python: '3.6'
+python: '3.5'
 before_install:
     - chmod +x ./.travis/test.sh
 script:
